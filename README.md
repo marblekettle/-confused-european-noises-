@@ -7,12 +7,12 @@ This is a question that many Europeans struggle with. Their obsolete system of u
 Each function of this bot is preceded by "cen?" or "€?". Typing only this will bring up a short sentence in European.
 Functions:
 -  help
--    Show this explanation.
+  -  Show this explanation.
 -  (number) F
--    Convert the (number) in degrees Celsius to degrees Fahrenheit.
+  -  Convert the (number) in degrees Celsius to degrees Fahrenheit.
 -  (number) C
--    Convert the (number) in degrees Fahrenheit to degrees Celsius.
+  -  Convert the (number) in degrees Fahrenheit to degrees Celsius.
 -  (number) ft
--    Convert the (number) in feet to meters.
+  -  Convert the (number) in feet to meters.
 -  (number) m
--    Convert the (number) in meters to feet.
+  -  Convert the (number) in meters to feet.
