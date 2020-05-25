@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 import discord
 import random
 
@@ -58,7 +60,7 @@ def ftoc(f):
 
 def ctof(c):
 	return ((c * 9.0 / 5.0) + 32)
-	
+
 def	alldigits(str):
 	try:
 		float(str)
@@ -71,7 +73,7 @@ async def on_message(message):
 	# we do not want the bot to reply to itself
 	if message.author == client.user:
 		return
-	
+
 	if message.content.startswith('cen?') or message.content.startswith("€?"):
 		msglist = message.content.split()
 		print(msglist)
@@ -81,7 +83,7 @@ async def on_message(message):
 			if (alldigits(msglist[1])):
 				prec = 0
 				if ('.' in msglist[1]):
-					prec = len(msglist[1]) - msglist[1].find('.') - 1 
+					prec = len(msglist[1]) - msglist[1].find('.') - 1
 				num = float(msglist[1])
 				if (msglist[2] == 'F'):
 					msg = '`%.*f °F = %.*f °C`' % (prec, num, prec, ftoc(num))
