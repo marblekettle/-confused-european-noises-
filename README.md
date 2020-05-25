@@ -2,7 +2,7 @@
 
 "What is a fahrenheit?"
 
-This is a question that many Europeans struggle with. Their obsolete system of units of measurement makes them think that it is scalding hot in the greatest nation on Earth, the United States of America, at times when it is actually frigid and rainy. Their lives must be so hard constantly having to measure lengths in quantities that cannot be easily associated with any part of their body (like the foot or the inch), or expressing temperatures in something not based on tangible objects, such as the human body, but rather the abstraction of an arbitrary fluid transforming into ice or steam. But this is not their fault! Their traditions and lack of literacy make it so that many things from more sophisticated, developed countries are alien and confusing. That is why I created this bot, so that my friends can easily convert quantities in the One True System to their own prehistoric units and better understand their superiors. At least, if they have learned how to read and count...
+This is a question that many Europeans struggle with. Their obsolete system of units of measurement makes them think that it is scalding hot in the greatest nation on Earth, the United States of America, at times when it is actually frigid and rainy. Their lives must be so hard constantly having to measure lengths in quantities that cannot be easily associated with any part of their body (like the foot or the inch), or expressing temperatures in something not based on tangible objects, such as the human body, but rather the abstraction of an arbitrary fluid transforming into ice or steam. But this is not their fault! Their traditions and lack of literacy make it so that many things from more sophisticated, developed countries are alien and confusing. That is why I created this Discord bot, so that my friends on the other side of the ocean who use Discord can easily convert quantities in the One True System to their own prehistoric units and better understand their superiors. At least, if they have learned how to read and count...
 
 Each function of this bot is preceded by "cen?" or "€?". Typing only this will bring up a short sentence in European.
 
@@ -27,3 +27,8 @@ help
 (number) m
 ```
 -  Convert the (number) in meters to feet.
+
+Changelogs
+
+v0.01 (2020-5-25)
+- Can convert temperatures(Fahrenheit, Celsius) and lengths (feet, meters).
